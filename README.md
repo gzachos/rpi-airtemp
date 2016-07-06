@@ -11,11 +11,11 @@ This repository contains the scripts required to:
 
 Specifications
 --------------
-Raspberry Pi model: B+
-Sensor model: DS18B20 (waterproof)
-Kernel release: 4.1.19+ (Raspbian)
-RRDtool version: 1.4.7
-The graphs will be of PNG file format
+Raspberry Pi model: B+ <br>
+Sensor model: DS18B20 (waterproof) <br>
+Kernel release: 4.1.19+ (Raspbian) <br>
+RRDtool version: 1.4.7 <br>
+The graphs will be of PNG file format <br>
 
 Installation
 ------------
@@ -57,13 +57,13 @@ Images
 ![Webpage](./images/webpage.png)
 
 <br>_Sample graph (2 Hour Temperature Log)_<br>
-![Sample Graph](./images/images/2h-graph.png)
+![Sample Graph](./images/2h-graph.png)
 
 <br>_Sample graph (4 Hour Temperature Log)_<br>
-![Sample Graph](./images/images/4h-graph.png)
+![Sample Graph](./images/4h-graph.png)
 
 <br>_Sample graph (12 Hour Temperature Log)_<br>
-![Sample Graph](./images/images/12h-graph.png)
+![Sample Graph](./images/12h-graph.png)
 
 Licence
 -------
