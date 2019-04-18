@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 #+-----------------------------------------------------------------------+
-#|                Copyright (C) 2016 George Z. Zachos                    |
+#|              Copyright (C) 2016-2019 George Z. Zachos                 |
 #+-----------------------------------------------------------------------+
 # 
 # This program is free software: you can redistribute it and/or modify
