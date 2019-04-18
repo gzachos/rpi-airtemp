@@ -109,7 +109,7 @@ main () {
 			sleep 0.1
 			read_raw_data
 		done
-		SENSOR_TEMP=$(awk "BEGIN{print ${RAW_DATA:(-5)}/1000}")
+		SENSOR_TEMP=$(awk "BEGIN{print ${RAW_DATA##*=}/1000}")
 		rrdtool update ${BASEDIR}/temperature.rrd $(date +%s):${SENSOR_TEMP}
 		sleep 1
 	done
