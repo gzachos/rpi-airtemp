@@ -65,8 +65,8 @@ generate_rrdgraph () {
 # Creates all the graphs
 main () {
 	INDEX=0
-	INTERVALS="1h 2h 4h 12h 24h 1w 4w 12w"
-	TITLES=('1 Hour' '2 Hour' '4 Hour' '12 Hour' '24 Hour' '1 Week' '1 Month' '3 Month')
+	INTERVALS="1h 2h 4h 12h 24h 1w 4w 12w 24w 1y"
+	TITLES=('1 Hour' '2 Hour' '4 Hour' '12 Hour' '24 Hour' '1 Week' '1 Month' '3 Month' '6 Month' '1 Year')
 	WTM_DATE=$(date -R)
 	for interval in ${INTERVALS}
 	do

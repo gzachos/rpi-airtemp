@@ -81,6 +81,8 @@ cat > ${BASEDIR}/index.html << __EOF__
 	<img src="./05-temp-1w.png"  alt="05-temp-1w.png">
 	<img src="./06-temp-4w.png"  alt="06-temp-4w.png">
 	<img src="./07-temp-12w.png" alt="07-temp-12w.png">
+	<img src="./08-temp-24w.png" alt="08-temp-24w.png">
+	<img src="./09-temp-1y.png"  alt="09-temp-1y.png">
 </body>
 </html>
 __EOF__
