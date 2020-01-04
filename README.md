@@ -1,24 +1,20 @@
-rpi-temperature
-===============
+# rpi-temperature
 
-About
------
+## About
 This repository contains the scripts required to:
   * Measure air temperature using a Raspberry Pi
   * Store the measurements taken in a Round-Robin Database
   * Create a graphical representation of the data stored
   * Create an ultra simple webpage to display the graphs
 
-Specifications
---------------
+## Specifications
 Raspberry Pi model: B+ <br>
 Sensor model: DS18B20 (waterproof) <br>
 Kernel release: 4.1.19+ (Raspbian) <br>
 RRDtool version: 1.4.7 <br>
 The graphs will be of PNG file format <br>
 
-Installation
-------------
+## Installation
 Install RRDtool and a web server (i.e. Apache):
 
 ```Shell
@@ -51,8 +47,7 @@ and adding the following two lines:
 
 Save and exit!
 
-Images
-------
+## Images
 <br>_Webpage_<br>
 ![Webpage](./images/webpage.png)
 
@@ -65,10 +60,8 @@ Images
 <br>_Sample graph (12 Hour Temperature Log)_<br>
 ![Sample Graph](./images/12h-graph.png)
 
-Licence
--------
-[GNU GENERAL PUBLIC LICENSE // Version 3, June 2007](LICENSE)
+## Developer
+[George Z. Zachos](https://gzachos.com)
 
-Developer
---------
-[George Z. Zachos](http://cse.uoi.gr/~gzachos)
+## Licence
+[GNU GENERAL PUBLIC LICENSE Version 2, June 1991](LICENSE)
